@@ -29,7 +29,7 @@ composer update
 
 4. Copy example .env like this 
 ```
-cp .env.example .env`
+cp .env.example .env
 ```
 ### Karena database yang digunakan di Heroku adalah postgres maka terlebih dahulu ganti file-file berikut:
 5. Open `/config/database.php` then delete this line
