@@ -33,7 +33,7 @@ Edit this line from `'default' => env('DB_CONNECTION', 'pgsql')` to `'default' =
 
 6. Open the .env folder in the folder and edit the file 
 ```
-DB_DATABASE = laravel change to DB_DATABASE = mysql
+DB_DATABASE = laravel change to --> DB_DATABASE = mysql
 ``` 
 7. Do the command to generate a random string that is used as the key required for all encryption and decryption processes in the application using this: \
 ```
