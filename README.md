@@ -1,5 +1,11 @@
 # IF184504_WEBPRO_C_Midterm
-# Website MusikInAjah with Laravel Framework 6.20.35
+
+**Name of Member**
+- Fitrah Mutiara (05111940000126)
+- Aprilia Annisa Suryo (05111940000199)
+- Nadia Tiara Febriana (05111940000217)
+
+# Website MusikInAjah with Laravel Framework 6.20.35 #
 
 # Installation
 1. Clone repository, can be downloaded .zip or with the git clone command like this \
