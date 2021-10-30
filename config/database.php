@@ -65,8 +65,8 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', 'host'),
-            'port' => env('DB_PORT', 'port'),
+            'host' => env('DB_HOST', 'ec2-35-169-204-98.compute-1.amazonaws.com'),
+            'port' => env('DB_PORT', '5432'),
             'database' => ltrim($DATABASE_URL["path"], "/"),
             'username' => $DATABASE_URL["user"],
             'password' => $DATABASE_URL["pass"],
