@@ -20,6 +20,13 @@ cd c:/xampp/htdocs/file
 ```
 composer install
 ```
+
+if error, can use this :
+
+```
+composer update
+```
+
 4. Copy example .env like this \
 ```
 cp .env.example .env`
