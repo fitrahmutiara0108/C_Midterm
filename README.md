@@ -41,3 +41,9 @@ php artisan migrate -seed
 php artisan serve
 ```
 9. Ready to run...
+
+# Link Hosting
+http://musikinajah.herokuapp.com/
+
+# Link Github Repository
+https://github.com/fitrahmutiara0108/C_Midterm
