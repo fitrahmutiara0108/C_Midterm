@@ -8,15 +8,15 @@
 # Website MusikInAjah with Laravel Framework 6.20.35 #
 
 # Installation
-1. Clone repository, can be downloaded .zip or with the git clone command like this \
+1. Clone repository, can be downloaded .zip or with the git clone command like this 
 ```
 git clone https://github.com/fitrahmutiara0108/C_Midterm.git
 ```
-2. In cmd, move to the file folder for example \
+2. In cmd, move to the file folder for example 
 ```
 cd c:/xampp/htdocs/file
 ```
-3. Then install composer \
+3. Then install composer 
 ```
 composer install
 ```
@@ -27,7 +27,7 @@ if error, can use this :
 composer update
 ```
 
-4. Copy example .env like this \
+4. Copy example .env like this 
 ```
 cp .env.example .env`
 ```
