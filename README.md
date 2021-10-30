@@ -6,9 +6,9 @@
 ```
 git clone https://github.com/fitrahmutiara0108/C_Midterm.git
 ```
-2. In cmd, move to the prognet8 folder for example \
+2. In cmd, move to the file folder for example \
 ```
-cd c:/xampp/htdocs/prognet8
+cd c:/xampp/htdocs/file
 ```
 3. Then install composer \
 ```
@@ -18,17 +18,20 @@ composer install
 ```
 cp .env.example .env`
 ```
-6. Open the .env folder in the folder and edit the file DB_DATABASE = laravel --> ``DB_DATABASE = mysql`` \
-7. Do the command to generate a random string that is used as the key required for all encryption and decryption processes in the application using this: \
+5. Open the .env folder in the folder and edit the file 
+```
+DB_DATABASE = laravel --> DB_DATABASE = mysql
+``` 
+6. Do the command to generate a random string that is used as the key required for all encryption and decryption processes in the application using this: \
 ```
 php artisan key:generate
 ```
-9. Migrate the table to the database with the command using this: \
+7. Migrate the table to the database with the command using this: \
 ```
 php artisan migrate -seed
 ```
-9. Then do the command below to run the website on localhost using this: \
+8. Then do the command below to run the website on localhost using this: \
 ```
 php artisan serve
 ```
-10. Ready to run...
+9. Ready to run...
