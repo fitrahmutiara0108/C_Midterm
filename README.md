@@ -41,7 +41,7 @@ php artisan key:generate
 ```
 8. Migrate the table to the database with the command using this: \
 ```
-php artisan migrate -seed
+php artisan migrate 
 ```
 9. Then do the command below to run the website on localhost using this: \
 ```
