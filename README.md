@@ -24,19 +24,26 @@ composer install
 ```
 cp .env.example .env`
 ```
-5. Open the .env folder in the folder and edit the file 
+### Karena database yang digunakan di Heroku adalah postgres maka terlebih dahulu ganti file-file berikut:
+5. Open `/config/database.php` then delete this line
+```
+$DATABASE_URL=parse_url('postgres://qqwilhabetmraa:a2b7b87edf66588c4969129e8a46bb5a5bee3364699aea4322c5ccf192e5c679@ec2-35-169-204-98.compute-1.amazonaws.com:5432/d3fi9vrl362bvc');
+```
+Edit this line from `'default' => env('DB_CONNECTION', 'pgsql')` to `'default' => env('DB_CONNECTION', 'mysql')`
+
+6. Open the .env folder in the folder and edit the file 
 ```
 DB_DATABASE = laravel --> DB_DATABASE = mysql
 ``` 
-6. Do the command to generate a random string that is used as the key required for all encryption and decryption processes in the application using this: \
+7. Do the command to generate a random string that is used as the key required for all encryption and decryption processes in the application using this: \
 ```
 php artisan key:generate
 ```
-7. Migrate the table to the database with the command using this: \
+8. Migrate the table to the database with the command using this: \
 ```
 php artisan migrate -seed
 ```
-8. Then do the command below to run the website on localhost using this: \
+9. Then do the command below to run the website on localhost using this: \
 ```
 php artisan serve
 ```
